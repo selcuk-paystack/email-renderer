@@ -1,0 +1,2 @@
+- paste your .hbs email into emails/handleBarsTemplate/html.hbs
+- Save anywhere in .js files to reload and refresh the browser (lol this can be improved)
