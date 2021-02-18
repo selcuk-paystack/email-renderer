@@ -10,11 +10,11 @@ const previewEmail = () => {
     send: false,
     transport: {
       // jsonTransport: true,
-      host: 'smtp.mailtrap.io',
-      port: 2525,
+      host: process.env.SMTP_HOST,
+      port: process.env.SMTP_PORT,
       auth: {
-        user: '97b0430f655532',
-        pass: '0f986758c90877',
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
       },
     },
     // When set to true, a preview will automatically open on our default browser, if you use firefox there is an
