@@ -9,3 +9,5 @@ SMTP_USER
 SMTP_PASS
 
 and set send: false if you want to send a test email
+
+Shoutout to @richard-paystack for the original work
